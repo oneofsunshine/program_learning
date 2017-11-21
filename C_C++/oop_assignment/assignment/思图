@@ -1,0 +1,6 @@
+红                  城市                      蓝
+0                 1.2.3....n                 n+1
+武士：dragon 、ninja、iceman、lion、wolf
+共有属性：编号、生命值、攻击力
+武士编号从1开始
+有的武士可以拥有武器：sword, bomb,和arrow，编号分别为0,1,2。
