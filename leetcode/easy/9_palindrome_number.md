@@ -1,3 +1,10 @@
+### Palindrome Number
+#### 1. Description:
+
+> Determine whether an integer is a palindrome. Do this without extra space.
+
+#### 2. Solution (code):
+```python
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -13,3 +20,4 @@ class Solution(object):
             x /= 10 
         
         return x == rev or x == rev / 10
+```

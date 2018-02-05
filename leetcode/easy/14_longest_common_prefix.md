@@ -1,3 +1,11 @@
+### Longest Common Prefix    
+
+#### 1. Description:
+
+> Write a function to find the longest common prefix string amongst an array of strings.
+
+#### 2. Solution (code):
+```python
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -13,3 +21,4 @@ class Solution(object):
                     return strs[0][0:i]
                 
         return strs[0]
+```

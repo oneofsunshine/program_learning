@@ -1,3 +1,13 @@
+### Valid Parentheses
+
+#### 1. Description:
+
+> Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
+>
+> The brackets must close in the correct order, `"()"` and `"()[]{}"` are all valid but `"(]"` and `"([)]"` are not.
+
+#### 2. Solution (code):
+```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -19,3 +29,4 @@ class Solution(object):
                     return False
         
         return len(l) == 0
+```
