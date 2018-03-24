@@ -20,6 +20,9 @@ ssh -T git@github.com！！！
 `git pull --rebase origin master`    
 也可以试试clone下来
 
+`git remote get-url origin` 获取remote的url   
+`git remote set-url origin` 设置remote的url
+
 ---
 
 **远程删除** 
