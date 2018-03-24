@@ -12,12 +12,12 @@ ssh -T git@github.com！！！
 **初始化** git init  
 **创建hello.md文件** echo "这是一次测试test ssh key" > hello.md  
 **提交到本地** 若出现如上warning提示则重新提交一次即可  
-**`git add .`**   #提交当前目录下所有文件  
-**提交到github** `git commit -m "add hello.md"`   #提交记录说明 
-`git remote add origin ‘粘贴复制test ssh key的ssh路径’`
-`git push -u origin master` #第一次提交加参数-u
-！！！解决failed to push some refs to git！！！
-git pull --rebase origin master
+**`git add .`**   #提交当前目录下所有文件    
+**提交到github** `git commit -m "add hello.md"`   #提交记录说明   
+`git remote add origin ‘粘贴复制test ssh key的ssh路径’`  
+`git push -u origin master` #第一次提交加参数-u  
+！！！解决failed to push some refs to git！！！  
+`git pull --rebase origin master`    
 也可以试试clone下来
 
 ---
